@@ -1,6 +1,6 @@
 #!/Users/Ivo/.virtualenvs/time4fun/bin/python
 from flask import Flask, jsonify, request
-from languagedetector import LanguageDetector
+from languagedetector.detector import LanguageDetector
 
 app = Flask(__name__)
 my_detector = LanguageDetector()
